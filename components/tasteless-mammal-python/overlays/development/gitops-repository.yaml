@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: tasteless-mammal-python-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/tasteless-mammal-python-gitops
